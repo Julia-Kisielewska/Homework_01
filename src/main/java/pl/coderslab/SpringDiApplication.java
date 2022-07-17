@@ -29,9 +29,9 @@ public class SpringDiApplication {
 
         System.out.println("============================");
 
-//        FileCustomerLogger fileCustomerLogger = context.getBean("fileCustomerLogger", FileCustomerLogger.class);
-//        fileCustomerLogger.setFilename("test.txt");
-//        fileCustomerLogger.log();
+        FileCustomerLogger fileCustomerLogger = context.getBean("fileCustomerLogger", FileCustomerLogger.class);
+
+
 
         context.close();
     }

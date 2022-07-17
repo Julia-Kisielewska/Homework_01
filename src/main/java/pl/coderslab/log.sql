@@ -1,0 +1,12 @@
+CREATE DATABASE user_operations
+    CHARACTER SET utf8mb4
+    COLLATE utf8mb4_unicode_ci;
+
+    CREATE TABLE operations
+(
+   ID INT AUTO_INCREMENT,
+   FIRST_NAME VARCHAR(1000),
+   LAST_NAME VARCHAR(1000),
+   OPERATION VARCHAR(1000),
+   PRIMARY KEY (ID)
+    );

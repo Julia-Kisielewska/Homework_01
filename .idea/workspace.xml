@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e40e722-d78a-4085-9449-770c77fdaa24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/FileCustomerLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/MemoryCustomerRepository.java" afterDir="false" />
+    <list default="true" id="1e40e722-d78a-4085-9449-770c77fdaa24" name="Changes" comment="20220717_Zad domowe Spring">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/DBCustomerLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/OperationsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/log.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/CustomerLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/CustomerLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/SimpleCustomerLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/SimpleCustomerLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/FileCustomerLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/FileCustomerLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/SpringDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/SpringDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/coderslab/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/coderslab/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +47,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/julia/Documents/JAVA CodersLab/Blok4/Homework_01",
+    "last_opened_file_path": "/home/julia/Documents/JAVA CodersLab/Blok2/Workshop-2",
     "spring.configuration.checksum": "1f8713ca8d5569dce3ad150770744a1f"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.coderslab" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SpringDiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.coderslab.SpringDiApplication" />
@@ -83,8 +91,16 @@
       <updated>1657376812314</updated>
       <workItem from="1657376813643" duration="1440000" />
       <workItem from="1657436500243" duration="121000" />
-      <workItem from="1658060961392" duration="6093000" />
+      <workItem from="1658060961392" duration="9362000" />
     </task>
+    <task id="LOCAL-00001" summary="20220717_Zad domowe Spring">
+      <created>1658067435620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658067435620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20220717_Zad domowe Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220717_Zad domowe Spring" />
   </component>
 </project>

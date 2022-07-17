@@ -11,17 +11,19 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @Data
-//@Repository
+@AllArgsConstructor
+@NoArgsConstructor
 public class FileCustomerLogger implements CustomerLogger {
-//    private String filename;
-//    File file = new File(filename);
+    private String filename;
+
 
     @Override
     public void log() {
-//        try (FileWriter fileWriter = new FileWriter("filename.txt", true)){
-//            fileWriter.append(LocalDateTime.now() + " Customer operation");
-//        } catch (IOException ex) {
-//            System.out.println("Błąd zapisu do pliku.");
-//        }
+        File file = new File(filename);
+        try (FileWriter fileWriter = new FileWriter(file, true)){
+            fileWriter.append(LocalDateTime.now() + " Customer operation");
+        } catch (IOException ex) {
+            System.out.println("Błąd zapisu do pliku.");
+        }
     }
 }
