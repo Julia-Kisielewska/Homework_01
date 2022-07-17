@@ -1,2 +1,5 @@
-package pl.coderslab;public interface CustomerLogger {
+package pl.coderslab;
+
+public interface CustomerLogger {
+    void log();
 }
