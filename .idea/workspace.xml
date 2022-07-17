@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e40e722-d78a-4085-9449-770c77fdaa24" name="Changes" comment="20220717_Zad domowe Spring">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/DBCustomerLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/DBUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/OperationsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/log.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/FileCustomerLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/FileCustomerLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/SpringDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/SpringDiApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/julia/Documents/JAVA CodersLab/Blok2/Workshop-2",
+    "last_opened_file_path": "/home/julia/Documents/JAVA CodersLab/Blok4/BookAPI_workshop",
     "spring.configuration.checksum": "1f8713ca8d5569dce3ad150770744a1f"
   },
   "keyToStringList": {
@@ -91,7 +82,7 @@
       <updated>1657376812314</updated>
       <workItem from="1657376813643" duration="1440000" />
       <workItem from="1657436500243" duration="121000" />
-      <workItem from="1658060961392" duration="9362000" />
+      <workItem from="1658060961392" duration="11324000" />
     </task>
     <task id="LOCAL-00001" summary="20220717_Zad domowe Spring">
       <created>1658067435620</created>
@@ -100,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658067435620</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20220717_Zad domowe Spring">
+      <created>1658071133597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658071133597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
